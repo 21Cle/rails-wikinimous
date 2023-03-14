@@ -1,0 +1,5 @@
+<h1><strong> <%= @article.title %> </strong></h1>
+
+<p><%= @article.content %></p>
+<button type="button" class="btn btn-info"><%= link_to "Update this article", edit_article_path %></button>
+<%= link_to "Go back to List", articles_path %>
